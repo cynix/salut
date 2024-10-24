@@ -1,0 +1,13 @@
+---
+nodes:
+  test:
+    services:
+      _foobar._tcp:
+        port: 3
+        text:
+          sys: foo=bar
+          dk0: baz=qux
+      _hello._tcp:
+        port: 5
+        text:
+          hello: world
